@@ -1,0 +1,52 @@
+@import "pineapple-fried/pineapple-fried.css";
+@import "tabgroup.css"
+* {
+   font-family: 'CaskaydiaMono NF Regular', sans-serif;
+   }
+
+tab-group:has(tab[hidden]){
+  display: none !important;
+}
+ 
+.tab-icon-image[src="chrome://branding/content/icon32.png"], .tab-icon-image[src="chrome://browser/skin/privatebrowsing/favicon.svg"] {
+  content: url('https://raw.githubusercontent.com/tabler/tabler-icons/01eb08a9bc8075f5bd6828ac30b0a3a038a9ef46/icons/filled/circle.svg') !important;
+}
+
+
+
+.titlebar-button > .toolbarbutton-icon {
+  list-style-image: none;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.titlebar-button:hover > .toolbarbutton-icon {
+  background: #3aea4994 !important;
+  border: 1px solid #3aea49 !important;
+}
+.titlebar-min:hover > .toolbarbutton-icon {
+  background: #fac53794 !important;
+  border: 1px solid #fac537 !important;
+}
+.titlebar-close:hover > .toolbarbutton-icon {
+  background: #f34f5694 !important;
+  border: 1px solid #f34f56 !important;
+}
+.titlebar-button > .toolbarbutton-icon {
+  background: #ffffff17 !important;
+  border: 1px solid #ffffff21 !important;
+}
+
+.titlebar-button {
+  background: none !important;
+  padding: 8px 8px !important;
+}
+
+.zen-workspace-tabs-section {height: 78%% !important;}
+
+.tabbrowser-tab[pinned]:nth-of-type(1) .tab-background {
+  background-color: rgba(rgba(34, 116, 208, 0.8)) !important;
+  box-shadow: none !important;
+}
+
+#navigator-toolbox {background: #3b4252 !important;}
