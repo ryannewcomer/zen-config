@@ -1,4 +1,4 @@
-@import "pineapple-fried/pineapple-fried.css";
+
 @import "tabgroup.css"
 * {
    font-family: 'CaskaydiaMono NF Regular', sans-serif;
@@ -50,3 +50,5 @@ tab-group:has(tab[hidden]){
 }
 
 #navigator-toolbox {background: #3b4252 !important;}
+
+@import "pineapple-fried/pineapple-fried.css" !important;
